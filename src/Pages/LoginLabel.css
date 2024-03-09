@@ -1,0 +1,10 @@
+.login-Label {
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1.5px solid #FF710D;
+    padding: 8px 16px;
+    margin: 8px;
+    background-color: #FFFDD0;
+    box-sizing: border-box;
+  }
