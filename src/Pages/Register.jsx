@@ -35,9 +35,9 @@ const Login = () => {
             top: '580px', 
             left: '0px'
           }}>
-            Hola, Selamat Datang 
+            Atyo Bergabung
             <br />
-            di <span style={{ color: 'rgba(255, 113, 13, 1)' }}>BizConnect</span>
+            dengan <span style={{ color: 'rgba(255, 113, 13, 1)' }}>BizConnect</span>
           </h1>
           <form action="">
           <h3 style={{
@@ -50,7 +50,7 @@ const Login = () => {
          position: 'absolute',
          top: '180px',
          right: '20px'
-            }}>Masuk Ke BizConnect</h3>
+            }}>Buat akun BizConnect</h3>
            <p style={{
           fontFamily: 'Poppins',
           fontWeight: 400,
@@ -62,8 +62,26 @@ const Login = () => {
          top: '230px',
          right: '20px'
 
-            }}>Silahkan masukkan informasi akun kamu.</p>
+            }}>Silahkan isi form berikut untuk melanjutkan</p>
 
+              <input
+              type="nama"
+              id="nama"
+              placeholder="Nama"
+              style={{
+                width: '500px',
+                height: '60px',
+                borderRadius: '10px',
+                border: '1.5px solid rgba(255, 113, 13, 1)',
+                padding: '8px 16px',
+                margin: '8px',
+                backgroundColor: 'rgba(255, 253, 208, 1)',
+                color: 'rgba(255, 113, 13, 1)',
+                position: 'absolute',
+                top: '280px',
+                right: '40px'
+              }}
+            />
             <input
               type="email"
               id="email"
@@ -101,36 +119,8 @@ const Login = () => {
                 right: '40px'
               }}
             />
-            <br />
-            <input
-              type="checkbox"
-              id="remember"
-              name="remember"
-              style={{
-                width: '18px',
-                height: '18px',
-                backgroundColor: 'rgba(255, 253, 208, 1)', // Warna latar belakang
-                border: '1.5px solid rgba(255, 113, 13, 1)', // Warna garis tepi
-                position: 'absolute',
-                top: '450px',
-                right: '520px'
-              }}
-            />
-            <label htmlFor="remember" style={{
-              width: '95px',
-              height: '11px',
-              fontFamily: 'Poppins',
-              fontWeight: 400,
-              fontSize: '16px',
-              lineHeight: '24px',
-              textAlign: 'center',
-              color: 'rgba(39, 39, 39, 1)',
-              position: 'absolute',
-              top: '447px',
-              right: '425px'
-            }}>
-              Ingat Saya?
-            </label>
+    
+    
             <p style={{ width: '146px', height: '27px', padding: '8px', gap: '8px' }}>
               <Link to="/forgot-password" style={{
                 width: '130px',
@@ -145,7 +135,7 @@ const Login = () => {
                 top: '447px',
                 right: '55px'
               }}>
-                Lupa Password?
+                Sudah memiliki akun?
               </Link>
             </p>
             <button
@@ -165,7 +155,7 @@ const Login = () => {
                 right: '40px'
               }}
             >
-              Masuk
+              Daftar
             </button>
 
             <br />
@@ -194,34 +184,9 @@ const Login = () => {
                 
               }}
             >
-              Masuk dengan Google
+             Daftar dengan Google
             </button>
-            <p style={{
-              width: '174px',
-              height: '11px',
-              fontFamily: 'Poppins',
-              fontWeight: 400,
-              fontSize: '16px',
-              lineHeight: '24px',
-              textAlign: 'center',
-              color: 'rgba(39, 39, 39, 1)',
-              position: 'absolute',
-              top: '700px',
-              right: '260px'
-            }}>Belum memiliki akun?</p>
-            <Link to="/register" style={{
-              width: '133px',
-              height: '11px',
-              fontFamily: 'Poppins',
-              fontWeight: 500,
-              fontSize: '16px',
-              lineHeight: '24px',
-              textAlign: 'center',
-              color: 'rgba(255, 113, 13, 1)',
-              position: 'absolute',
-              top: '700px',
-              right: '150px'
-            }}>Daftar Sekarang</Link>
+        
           </form>
           <div className="right" style={{ position: 'absolute', top: '170px', left: '50px'  }}>
           <img src="/Gambar1.png" alt="" />
@@ -235,4 +200,4 @@ const Login = () => {
   );
 }
 
-export default Login;
+export default Register;
