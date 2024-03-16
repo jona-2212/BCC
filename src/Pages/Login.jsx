@@ -20,7 +20,6 @@ const Login = () => {
         padding: '8px',
         backgroundColor: '#FFECD0',
         justifyContent: 'center',
-        
       }}>
         <div className="Login">
           <h1 style={{
@@ -40,28 +39,27 @@ const Login = () => {
             di <span style={{ color: 'rgba(255, 113, 13, 1)' }}>BizConnect</span>
           </h1>
           <form action="">
-          <h3 style={{
-        fontFamily: 'Poppins',
-         fontWeight: 600,
-         fontSize: '36px',
-        lineHeight: '54px',
-         width: '529px',
-         height: '25px', 
-         position: 'absolute',
-         top: '180px',
-         right: '20px'
+            <h3 style={{
+              fontFamily: 'Poppins',
+              fontWeight: 600,
+              fontSize: '36px',
+              lineHeight: '54px',
+              width: '529px',
+              height: '25px', 
+              position: 'absolute',
+              top: '180px',
+              right: '20px'
             }}>Masuk Ke BizConnect</h3>
-           <p style={{
-          fontFamily: 'Poppins',
-          fontWeight: 400,
-          fontSize: '20px',
-          lineHeight: '30px',
-          width: '529px',
-          height: '14px', 
-          position: 'absolute',
-         top: '230px',
-         right: '20px'
-
+            <p style={{
+              fontFamily: 'Poppins',
+              fontWeight: 400,
+              fontSize: '20px',
+              lineHeight: '30px',
+              width: '529px',
+              height: '14px', 
+              position: 'absolute',
+              top: '230px',
+              right: '20px'
             }}>Silahkan masukkan informasi akun kamu.</p>
 
             <input
@@ -170,11 +168,11 @@ const Login = () => {
 
             <br />
             <p
-            style={{
-              position: 'absolute',
-              top: '580px',
-              right: '280px'
-            }}>Atau</p>
+              style={{
+                position: 'absolute',
+                top: '580px',
+                right: '280px'
+              }}>Atau</p>
             <button
               type="submit"
               style={{
@@ -184,50 +182,49 @@ const Login = () => {
                 padding: '8px 16px',
                 margin: '8px',
                 backgroundColor: 'rgba(255, 113, 13, 1)',
+                textAlign: 'center',
                 color: 'white',
                 border: 'none',
                 cursor: 'pointer',
                 position: 'absolute',
                 top: '610px',
                 right: '40px'
-                
-                
               }}
             >
               Masuk dengan Google
             </button>
-            <p style={{
-              width: '174px',
-              height: '11px',
-              fontFamily: 'Poppins',
-              fontWeight: 400,
-              fontSize: '16px',
-              lineHeight: '24px',
-              textAlign: 'center',
-              color: 'rgba(39, 39, 39, 1)',
-              position: 'absolute',
-              top: '700px',
-              right: '260px'
-            }}>Belum memiliki akun?</p>
-            <Link to="/register" style={{
-              width: '133px',
-              height: '11px',
-              fontFamily: 'Poppins',
-              fontWeight: 500,
-              fontSize: '16px',
-              lineHeight: '24px',
-              textAlign: 'center',
-              color: 'rgba(255, 113, 13, 1)',
-              position: 'absolute',
-              top: '700px',
-              right: '150px'
-            }}>Daftar Sekarang</Link>
           </form>
+          <p style={{
+            width: '174px',
+            height: '11px',
+            fontFamily: 'Poppins',
+            fontWeight: 400,
+            fontSize: '16px',
+            lineHeight: '24px',
+            textAlign: 'center',
+            color: 'rgba(39, 39, 39, 1)',
+            position: 'absolute',
+            top: '700px',
+            right: '260px'
+          }}>Belum memiliki akun?</p>
+          <Link to="/register" style={{
+            width: '133px',
+            height: '11px',
+            fontFamily: 'Poppins',
+            fontWeight: 500,
+            fontSize: '16px',
+            lineHeight: '24px',
+            textAlign: 'center',
+            color: 'rgba(255, 113, 13, 1)',
+            position: 'absolute',
+            top: '700px',
+            right: '150px'
+          }}>Daftar Sekarang</Link>
           <div className="right" style={{ position: 'absolute', top: '170px', left: '50px'  }}>
-          <img src="/Gambar1.png" alt="" />
-          <img src="/GambarGoogle.png" alt="" />
-
-            
+            <img src="/Gambar1.png" alt="" />
+          </div>
+          <div className="right" style={{ position: 'absolute', top: '620px', left: '840px'  }}>
+            <img src="/GambarGoogle.png" alt="" />
           </div>
         </div>
       </div>

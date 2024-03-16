@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link jika Anda menggunakan react-router
 
-const HomePage = () => {
+const Konsultasi = () => {
     return (
         <div className='navbar'
              style={{
@@ -155,12 +155,16 @@ const HomePage = () => {
                 }}
             >
                 <img 
-                    src="Gambar1.png" 
+                    src="konsul.png" 
                     alt="" 
                     style={{
+                        width: '573.84px',
+                        height: '532.366px',
+                        left: '681.51px',
+                        
                         position: 'absolute',
-                        top: '100px', // Set the top value
-                        left: '800px', // Set the left value
+                        top: '37.18px', // Set the top value
+                        
                     }}
                 />
                 <p
@@ -177,231 +181,45 @@ const HomePage = () => {
         left: '50px'
     }}
 >
-    Etalase Produk 
+    Mentoring Bisnis 
     <br />
-    Mahasiswa Wirausaha
+    Bersama Proffesional
 </p>
 <p
     style={{
-        width: '671px',
+        width: '640px',
         height: '89px',
-        fontFamily: 'Poppins, sans-serif',
-        fontWeight: '500',
+        fontFamily: 'Poppins',
+        fontWeight: 500,
         fontSize: '20px',
         lineHeight: '30px',
-        color: '#FFFFFF',
         position: 'absolute',
         top: '290px',
-        left: '50px'
+        left: '50px',
+        color: '#FFFFFF'
     }}
 >
-    BizConnect adalah platform yang tepat bagi mahasiswa wirausaha di Indonesia yang ingin memasarkan produk mereka secara online.
+Yuk mentoring sekarang mengenai bisnis dengan
+<br /> professional dibidang wirausaha.
 </p>
-<Link to="/halaman-tujuan" style={{
-    display: 'inline-block',
-    width: '306px',
-    height: '50px',
-    borderRadius: '8px',
-    padding: '16px 32px',
-    backgroundColor: '#513623',
-    color: '#FFFFFF',
-    fontSize: '20px',
-    fontWeight: 'normal',
-    fontFamily: 'Poppins, sans-serif',
-    lineHeight: '24px',
-    textAlign: 'center',
-    textDecoration: 'none',
-    border: 'none',
-    cursor: 'pointer',
-    position: 'absolute',
-    top: '410px',
-    left: '50px'
-}}>
-    Registrasi Pelaku Usaha
-</Link>
 
             </div>
             <div className='contain1'
               style={{
                 width: '1440px',
-                height: '650px',
-                top: '800px',
-                padding: '24px 48px',
-                backgroundColor: '#FFECD0',
-                gap: '120px',
-                position: 'absolute',
-                 top: '808px',
-                left: '0px'
-            }}>
-                <p
-    style={{
-        width: '678px',
-        height: '80px',
-        fontFamily: 'Poppins, sans-serif',
-        fontWeight: 700,
-        fontSize: '34px',
-        lineHeight: '51px',
-        color: '#272727',
-        position: 'absolute',
-        top: '100px',
-        left: '800px'
-    }}
->
-    Mari Bergabung dengan 
-    <br />Komunitas Mahasiswa Wirausaha
-</p>
-<p
-    style={{
-        width: '678px',
-        height: '44px',
-        fontFamily: 'Poppins, sans-serif',
-        fontWeight: 400,
-        fontSize: '20px',
-        lineHeight: '30px',
-        color: '#272727',
-        position: 'absolute',
-        top: '200px',
-        left: '800px'
-        
-    }}
->
-    Bergabung sekarang dengan Komunitas Wirausaha se-Indonesia
-    <br /> dan dapatkan manfaatnya
-</p>
-<p
-    style={{
-        width: '602px',
-        height: '14px',
-        fontFamily: 'Poppins, sans-serif',
-        fontWeight: 400,
-        fontSize: '20px',
-        lineHeight: '30px',
-        color: '#272727',
-        position: 'absolute',
-        top: '302px',
-        left: '850px'
-    }}
->
-    Mendapatkan relasi dengan sesama Mahasiswa Wirausaha
-</p>
-<p
-    style={{
-        width: '614px',
-        height: '14px',
-        fontFamily: 'Poppins, sans-serif',
-        fontWeight: 400,
-        fontSize: '20px',
-        lineHeight: '30px',
-        color: '#272727',
-        position: 'absolute',
-        top: '353px',
-        left: '850px'
-        
-    }}
->
-    Sharing ilmu wirausaha bersama dengan Mahasiswa lainnya
-</p>
-<p
-    style={{
-        width: '521px',
-        height: '14px',
-        fontFamily: 'Poppins, sans-serif',
-        fontWeight: 400,
-        fontSize: '20px',
-        lineHeight: '30px',
-        color: '#272727',
-        position: 'absolute',
-        top: '403px',
-        left: '850px'
-    }}
->
-    Berkolaborasi usaha dengan Mahasiswa Wirausaha
-</p>
-<div>
-            
-            <Link to="/tujuan">
-                <button
-                    style={{
-                        width: '292px',
-                        height: '50px',
-                        borderRadius: '8px',
-                        padding: '16px 32px',
-                        backgroundColor: '#FF710D',
-                        color: '#FFFFFF',
-                        fontSize: '20px',
-                        fontWeight: '500',
-                        fontFamily: 'Poppins, sans-serif',
-                        lineHeight: '20px',
-                        textAlign: 'center',
-                        border: 'none',
-                        cursor: 'pointer',
-                        top: '460px',
-                        left: '800px',
-                        position: 'absolute'
-                    }}
-                >
-                    Bergabung Komunitas
-                </button>
-            </Link>
-        </div>
-   
-<img  src="Check.png" 
- alt="" 
- style={{
-    position: 'absolute',
-        top: '300px',
-        left: '800px'
- }}/>
-
-<img  src="Check.png" 
- alt=""
- style={{
-    position: 'absolute',
-        top: '350px',
-        left: '800px'
- }} />
- 
- <img  src="Check.png" 
- alt="" 
- style={{
-    position: 'absolute',
-        top: '400px',
-        left: '800px'
- }}/>
- <img  src="Gambarhome1.png" 
- alt="" 
- style={{
-    width: '328px',
-        height: '231px',
-        top: '102px',
-        left: '50px',
-        position: 'absolute'
- }}/>
- <img  src="home5.png" 
- alt="" 
- style={{
-   width: '328px',
- height: '231px',
- top: '250px',
- left: '300px',
- position: 'absolute'  
- }}
-/>
-
-            </div >
-
-            <div className='contain2'
-            style={{
                 width: '1441px',
-                height: '645px',
-                top: '1448px',
+                height: '800px',
+                top: '740px',
+                borderRadius: '50px',
                 padding: '24px 48px',
+                margin: '0 48px',
                 backgroundColor: '#FFECD0',
-                gap: '8px',
                 position: 'absolute',
-                top:'1458px',
-                left:'0px'
+                left: '-50px'
             }}>
+         
+
+
         <p
         style={{
             width: '1276px',
@@ -445,31 +263,6 @@ const HomePage = () => {
     
 
 
-    <Link to="/Konsultasi">
-                <button
-                    style={{
-                        width: '292px',
-                        height: '50px',
-                        borderRadius: '8px',
-                        padding: '16px 32px',
-                        backgroundColor: '#FF710D',
-                        color: '#FFFFFF',
-                        fontSize: '20px',
-                        fontWeight: '500',
-                        fontFamily: 'Poppins, sans-serif',
-                        lineHeight: '20px',
-                        textAlign: 'center',
-                        border: 'none',
-                        cursor: 'pointer',
-                        top: '520px',
-                        left: '600px',
-                        position: 'absolute'
-                    }}
-                >
-                    Yuk Mulai Konsultasi
-                </button>
-            </Link>
-
 <img  src="home4.png" 
  alt="" 
  style={{
@@ -491,6 +284,85 @@ const HomePage = () => {
         top: '150px',
         left: '230px'
  }}/>
+<div className='contain3'
+style={{
+    width: '1441px',
+    height: '745px',
+    borderRadius: '50px 50px 0 0',
+    padding: '32px',
+    margin: '0 48px',
+    backgroundColor: 'rgba(81, 54, 35, 0.1)',
+    position: 'absolute',
+    top: '700px',
+    left: '-50px'
+    
+}}>
+    <button style={{
+        width: '993px',
+        height: '150px',
+        top: '1303px',
+        left: '224px',
+        borderRadius: '25px',
+        padding: '16px 32px',
+        margin: '8px', 
+        backgroundColor: 'rgba(255, 113, 13, 1)',
+        color: 'white',
+        fontSize: '16px',
+        textAlign: 'center',
+        lineHeight: '118px', 
+        cursor: 'pointer',
+        position:'absolute',
+        top:'-80px',
+        
+    }}>
+        <p style={{
+            width: '1276px',
+            height: '25px',
+            fontFamily: 'Poppins',
+            fontWeight: '700',
+            fontSize: '34px',
+            verticalTrim: 'Cap height',
+            lineHeight: '51px',
+            textAlign: 'center',
+            color: 'rgba(255, 255, 255, 1)',
+            position:'absolute',
+            top:'30px',
+            left:'-135px'
+    
+        }}>Private Mentoring dengan Mentor BizConnect</p>
+
+        <p style={{
+            width: '1276px',
+            height: '14px',
+            fontFamily: 'Poppins',
+            fontWeight: '400',
+            fontSize: '20px',
+            verticalTrim: 'Cap height',
+            lineHeight: '30px',
+            textAlign: 'center',
+            color: 'rgba(255, 255, 255, 1)',
+            position:'absolute',
+            top:'80px',
+            left:'-135px'
+    
+        }}> BizConnect menyediakan konsultasi bisnis dengan para professional.</p>
+    
+    </button>
+    <Link to="/Detail Mentor" style={{
+
+maxWidth: '416px',
+width: '100%',
+height: '520px',
+borderRadius: '25px',
+border: '0.5px solid #5B5B5B',
+padding: '24px',
+margin: '24px',
+backgroundColor: '#FFFFFF',
+boxSizing: 'border-box',
+  }}></Link>
+    
+</div>
+
 
 
             </div>
@@ -784,6 +656,6 @@ style={{
     );
 }
 
-export default HomePage;
+export default Konsultasi;
 
 

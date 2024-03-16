@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link jika Anda menggunakan react-router
 
-const Login = () => {
+const Register = () => {
   return (
     <div className="layout" style={{
       width: 'full',
@@ -35,7 +35,7 @@ const Login = () => {
             top: '580px', 
             left: '0px'
           }}>
-            Atyo Bergabung
+            Ayo Bergabung
             <br />
             dengan <span style={{ color: 'rgba(255, 113, 13, 1)' }}>BizConnect</span>
           </h1>
@@ -48,7 +48,7 @@ const Login = () => {
          width: '529px',
          height: '25px', 
          position: 'absolute',
-         top: '180px',
+         top: '100px',
          right: '20px'
             }}>Buat akun BizConnect</h3>
            <p style={{
@@ -59,29 +59,29 @@ const Login = () => {
           width: '529px',
           height: '14px', 
           position: 'absolute',
-         top: '230px',
+         top: '150px',
          right: '20px'
 
             }}>Silahkan isi form berikut untuk melanjutkan</p>
 
-              <input
-              type="nama"
-              id="nama"
-              placeholder="Nama"
-              style={{
-                width: '500px',
-                height: '60px',
-                borderRadius: '10px',
-                border: '1.5px solid rgba(255, 113, 13, 1)',
-                padding: '8px 16px',
-                margin: '8px',
-                backgroundColor: 'rgba(255, 253, 208, 1)',
-                color: 'rgba(255, 113, 13, 1)',
-                position: 'absolute',
-                top: '280px',
-                right: '40px'
-              }}
-            />
+        <input
+  type="text"
+  id="nama"
+  placeholder="Nama"
+  style={{
+    width: '500px',
+    height: '60px',
+    borderRadius: '10px',
+    border: '1.5px solid rgba(255, 113, 13, 1)',
+    padding: '8px 16px',
+    margin: '8px',
+    backgroundColor: 'rgba(255, 253, 208, 1)',
+    color: 'rgba(255, 113, 13, 1)',
+    position: 'absolute',
+    top: '200px',
+    right: '40px'
+  }}
+/>
             <input
               type="email"
               id="email"
@@ -121,23 +121,25 @@ const Login = () => {
             />
     
     
-            <p style={{ width: '146px', height: '27px', padding: '8px', gap: '8px' }}>
-              <Link to="/forgot-password" style={{
-                width: '130px',
-                height: '11px',
-                fontFamily: 'Poppins',
-                fontWeight: 400,
-                fontSize: '16px',
-                lineHeight: '24px',
-                textAlign: 'right',
-                color: 'rgba(39, 39, 39, 1)',
-                position: 'absolute',
-                top: '447px',
-                right: '55px'
-              }}>
-                Sudah memiliki akun?
-              </Link>
-            </p>
+    
+  <Link to="/Login" style={{
+    width: 'fill',
+    fontFamily: 'Poppins',
+    fontWeight: 400,
+    height: '24px',
+    fontSize: '16px',
+    lineHeight: '24px',
+    textAlign: 'right',
+    padding: '8px',
+    color: 'rgba(39, 39, 39, 1)',
+    gap: '219px',
+    position: 'absolute',
+    top: '447px',
+    right: '40px'
+  }}>
+    Sudah memiliki akun?
+  </Link>
+
             <button
               type="submit"
               style={{
@@ -174,6 +176,7 @@ const Login = () => {
                 padding: '8px 16px',
                 margin: '8px',
                 backgroundColor: 'rgba(255, 113, 13, 1)',
+                textAlign: 'center',
                 color: 'white',
                 border: 'none',
                 cursor: 'pointer',
@@ -189,9 +192,10 @@ const Login = () => {
         
           </form>
           <div className="right" style={{ position: 'absolute', top: '170px', left: '50px'  }}>
-          <img src="/Gambar1.png" alt="" />
-          <img src="/GambarGoogle.png" alt="" />
-
+            <img src="/Gambar1.png" alt="" />
+          </div>
+          <div className="right" style={{ position: 'absolute', top: '620px', left: '840px'  }}>
+            <img src="/GambarGoogle.png" alt="" />
             
           </div>
         </div>
