@@ -5,10 +5,10 @@ const HomePage = () => {
     return (
         <div className='navbar'
              style={{
-                 width: '1440px',
+                 width: '100%',
                  height: '108px',
                  padding: '16px 32px',
-                 backgroundColor: '#FF710D',
+                 backgroundColor: '#C6391A',
              }}
         >
             <Link to="/">
@@ -50,7 +50,7 @@ const HomePage = () => {
                     fontSize: '24px',
                     lineHeight: '36px',
                     verticalAlign: 'middle',
-                    color: '#FFFFFF',
+                    color: '#272727',
                     position:'absolute',
                     top: '30px',
                     left: '150px'
@@ -68,12 +68,12 @@ const HomePage = () => {
                     fontSize: '20px',
                     lineHeight: '30px',
                     textAlign: 'center',
-                    color: '#FFFFFF',
+                    color: '#272727',
                     position: 'absolute',
                     top: '35px',
                     left: '600px'
                 }}>
-                    <Link to="/" style={{ color: '#FFFFFF' }}>Beranda</Link>
+                    <Link to="/homepage" style={{ color: '#FFFFFF' }}>Beranda</Link>
                 </li>
 
                 <li style={{
@@ -84,7 +84,7 @@ const HomePage = () => {
                     fontSize: '20px',
                     lineHeight: '30px',
                     textAlign: 'center',
-                    color: '#FFFFFF',
+                    color: '#272727',
                     position: 'absolute',
                     top: '35px',
                     left: '720px'
@@ -100,7 +100,7 @@ const HomePage = () => {
                     fontSize: '20px',
                     lineHeight: '30px',
                     textAlign: 'center',
-                    color: '#FFFFFF',
+                    color: '#272727',
                     position: 'absolute',
                     top: '35px',
                     left: '820px'
@@ -116,12 +116,12 @@ const HomePage = () => {
                     fontSize: '20px',
                     lineHeight: '30px',
                     textAlign: 'center',
-                    color: '#FFFFFF',
+                    color: '#272727F',
                     position: 'absolute',
                     top: '35px',
                     left: '940px'
                 }}>
-                    <Link to="/mentoring" style={{ color: '#FFFFFF' }}>Mentoring</Link>
+                    <Link to="/Konsultasi" style={{ color: '#FFFFFF' }}>Mentoring</Link>
                 </li>
 
                 <li style={{
@@ -132,7 +132,7 @@ const HomePage = () => {
                     fontSize: '20px',
                     lineHeight: '30px',
                     textAlign: 'center',
-                    color: '#FFFFFF',
+                    color: '#272727',
                     position: 'absolute',
                     top: '37px',
                     left: '1120px'
@@ -144,12 +144,12 @@ const HomePage = () => {
             <div
                 className='contain'
                 style={{
-                    width: '1440px',
+                    width: '100%',
                     height: '700px',
                     position: 'absolute',
                     top: '107px',
                     padding: '16px 32px',
-                    backgroundColor: '#FF710D',
+                    backgroundColor: '#C6391A',
                     gap: '8px',
                     left: '0px'
                 }}
@@ -197,14 +197,14 @@ const HomePage = () => {
 >
     BizConnect adalah platform yang tepat bagi mahasiswa wirausaha di Indonesia yang ingin memasarkan produk mereka secara online.
 </p>
-<Link to="/halaman-tujuan" style={{
+<Link to="/regristasi" style={{
     display: 'inline-block',
     width: '306px',
     height: '50px',
     borderRadius: '8px',
     padding: '16px 32px',
-    backgroundColor: '#513623',
-    color: '#FFFFFF',
+    backgroundColor: '#FFFFFF',
+    color: '#272727',
     fontSize: '20px',
     fontWeight: 'normal',
     fontFamily: 'Poppins, sans-serif',
@@ -223,11 +223,11 @@ const HomePage = () => {
             </div>
             <div className='contain1'
               style={{
-                width: '1440px',
+                width: '1515px',
                 height: '650px',
                 top: '800px',
                 padding: '24px 48px',
-                backgroundColor: '#FFECD0',
+                backgroundColor: '#FBF2F0',
                 gap: '120px',
                 position: 'absolute',
                  top: '808px',
@@ -326,7 +326,7 @@ const HomePage = () => {
                         height: '50px',
                         borderRadius: '8px',
                         padding: '16px 32px',
-                        backgroundColor: '#FF710D',
+                        backgroundColor: '#C6391A',
                         color: '#FFFFFF',
                         fontSize: '20px',
                         fontWeight: '500',
@@ -345,7 +345,7 @@ const HomePage = () => {
             </Link>
         </div>
    
-<img  src="Check.png" 
+<img  src="circle.png" 
  alt="" 
  style={{
     position: 'absolute',
@@ -353,7 +353,7 @@ const HomePage = () => {
         left: '800px'
  }}/>
 
-<img  src="Check.png" 
+<img  src="circle.png" 
  alt=""
  style={{
     position: 'absolute',
@@ -361,7 +361,7 @@ const HomePage = () => {
         left: '800px'
  }} />
  
- <img  src="Check.png" 
+ <img  src="circle.png" 
  alt="" 
  style={{
     position: 'absolute',
@@ -392,11 +392,11 @@ const HomePage = () => {
 
             <div className='contain2'
             style={{
-                width: '1441px',
+                width: '1515px',
                 height: '645px',
                 top: '1448px',
                 padding: '24px 48px',
-                backgroundColor: '#FFECD0',
+                backgroundColor: '#FBF2F0',
                 gap: '8px',
                 position: 'absolute',
                 top:'1458px',
@@ -414,13 +414,13 @@ const HomePage = () => {
             textAlign: 'center',
             position: 'absolute',
             top:'10px',
-            left:'0px'
+            left:'50px'
             
         }}
         >Konsultasi Dengan Mentor 
         <p
         style={{
-        color: '#FF710D',
+        color: 'rgba(198, 57, 26, 1)',
         position: 'absolute',
         top:'0px',
         left:'865px'
@@ -438,7 +438,7 @@ const HomePage = () => {
     color: '#272727',
     position: 'absolute',
     top:'60px',
-    left:'100px'
+    left:'150px'
     }}>
       BizConnect menyediakan layanan konsultasi mengenai usaha kamu lho, yuk coba sekarang.
     </p>
@@ -452,7 +452,7 @@ const HomePage = () => {
                         height: '50px',
                         borderRadius: '8px',
                         padding: '16px 32px',
-                        backgroundColor: '#FF710D',
+                        backgroundColor: '#C6391A',
                         color: '#FFFFFF',
                         fontSize: '20px',
                         fontWeight: '500',
@@ -462,7 +462,7 @@ const HomePage = () => {
                         border: 'none',
                         cursor: 'pointer',
                         top: '520px',
-                        left: '600px',
+                        left: '650px',
                         position: 'absolute'
                     }}
                 >
@@ -475,30 +475,30 @@ const HomePage = () => {
  style={{
     position: 'absolute',
         top: '150px',
-        left: '570px'
+        left: '620px'
  }}/>
  <img  src="home2.png" 
  alt="" 
  style={{
     position: 'absolute',
         top: '150px',
-        left: '910px'
+        left: '960px'
  }}/>
 <img  src="home3.png" 
  alt="" 
  style={{
     position: 'absolute',
         top: '150px',
-        left: '230px'
+        left: '280px'
  }}/>
 
 
             </div>
             <div className='footer'style={{
-                width: '1441px',
+                width: '1515px',
                 height: '350px',
                 padding: '24px 48px',
-                backgroundColor: '#FFECD0',
+                backgroundColor: '#FBF2F0',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
@@ -525,7 +525,7 @@ const HomePage = () => {
     fontWeight: 600,
     fontSize: '24px',
     verticalAlign: 'middle',
-    color: '#FF710D',
+    color: '#C6391A',
     lineHeight: '36px',
     position: 'absolute',
     top: '110px',
@@ -539,7 +539,7 @@ const HomePage = () => {
     fontWeight: 600,
     fontSize: '20px',
     lineHeight: '30px',
-    color: '#513623',
+    color: '#272727',
     verticalAlign: 'middle',
     position: 'absolute',
     top: '70px',
@@ -567,7 +567,7 @@ const HomePage = () => {
     fontWeight: 600,
     fontSize: '20px',
     lineHeight: '30px',
-    color: '#513623',
+    color: '#272727',
     verticalAlign: 'middle',
     position:'absolute',
     top: '70px',
@@ -581,7 +581,7 @@ const HomePage = () => {
     fontWeight: 400,
     fontSize: '16px',
     lineHeight: '24px',
-    color: '#513623', 
+    color: '#272727', 
     verticalAlign: 'middle',
     position:'absolute',
     top: '120px',
@@ -597,7 +597,7 @@ const HomePage = () => {
     fontWeight: 400,
     fontSize: '16px',
     lineHeight: '24px',
-    color: '#513623',
+    color: '#272727',
     textDecoration: 'none',
     position: 'absolute',
     top: '120px',
@@ -611,7 +611,7 @@ const HomePage = () => {
     fontWeight: 400,
     fontSize: '16px',
     lineHeight: '24px',
-    color: '#513623',
+    color: '#272727',
     textDecoration: 'none',
     position: 'absolute',
     top: '160px',
@@ -639,7 +639,7 @@ const HomePage = () => {
     fontWeight: 400,
     fontSize: '16px',
     lineHeight: '24px',
-    color: '#513623',
+    color: '#272727',
     textDecoration: 'none',
     position: 'absolute',
     top: '240px',
@@ -654,7 +654,7 @@ const HomePage = () => {
     fontWeight: 400,
     fontSize: '16px',
     lineHeight: '24px',
-    color: '#513623',
+    color: '#272727',
     textDecoration: 'none',
     position: 'absolute',
     top: '120px',
@@ -668,7 +668,7 @@ const HomePage = () => {
     fontWeight: 400,
     fontSize: '16px',
     lineHeight: '24px',
-    color: '#513623',
+    color: '#272727',
     textDecoration: 'none',
     position: 'absolute',
     top: '160px',
@@ -682,7 +682,7 @@ const HomePage = () => {
     fontWeight: 400,
     fontSize: '16px',
     lineHeight: '24px',
-    color: '#513623',
+    color: '#272727',
     textDecoration: 'none',
     position: 'absolute',
     top: '200px',
@@ -696,7 +696,7 @@ const HomePage = () => {
     fontWeight: 400,
     fontSize: '16px',
     lineHeight: '24px',
-    color: '#513623',
+    color: '#272727',
     textDecoration: 'none',
     position: 'absolute',
     top: '240px',
@@ -704,7 +704,7 @@ const HomePage = () => {
   }}>Konsultasi Mentor</Link>
 
 <img 
-    src="Bcorange.png" 
+    src="logo1.png" 
     alt="" 
     style={{
     position: 'absolute',
@@ -758,14 +758,14 @@ const HomePage = () => {
 
 <div className='Footer2'
 style={{
-    width: '1440px', 
+    width: '1515px', 
     height: '70px', 
     position: 'absolute',
     top: '2453px', 
     left:'0px',
     padding: '8px 16px', 
     gap: '8px', 
-    backgroundColor: '#513623',
+    backgroundColor: ' #C6391A',
 }}>
     <p style={{
     width: '1408px', 
@@ -776,6 +776,8 @@ style={{
     lineHeight: '50px',
     textAlign: 'center', 
     color: '#FFFFFF', 
+    position: 'absolute',
+    left: '100px'
   }}>Copyright © 2024. BizConnect. All Rights Reserved</p>
 
 </div>

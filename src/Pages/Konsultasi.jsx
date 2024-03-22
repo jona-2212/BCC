@@ -1,14 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link jika Anda menggunakan react-router
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
-const Konsultasi = () => {
+const Konsultasi = () => {    
+
+
     return (
         <div className='navbar'
              style={{
-                 width: '1440px',
+                 width: 'full',
                  height: '108px',
                  padding: '16px 32px',
-                 backgroundColor: '#FF710D',
+                 backgroundColor: 'rgba(198, 57, 26, 1)',
              }}
         >
             <Link to="/">
@@ -144,23 +149,23 @@ const Konsultasi = () => {
             <div
                 className='contain'
                 style={{
-                    width: '1440px',
+                    width: '100%',
                     height: '700px',
                     position: 'absolute',
                     top: '107px',
                     padding: '16px 32px',
-                    backgroundColor: '#FF710D',
+                    backgroundColor: 'rgba(198, 57, 26, 1)',
                     gap: '8px',
                     left: '0px'
                 }}
             >
                 <img 
-                    src="konsul.png" 
+                    src="orang1.png" 
                     alt="" 
                     style={{
-                        width: '573.84px',
-                        height: '532.366px',
-                        left: '681.51px',
+                        width: '685.9px',
+                        height: '478px',
+                        left: '781px',
                         
                         position: 'absolute',
                         top: '37.18px', // Set the top value
@@ -171,7 +176,7 @@ const Konsultasi = () => {
                  style={{
         width: '622px',
         height: '101px',
-        fontFamily: 'Poppins, sans-serif',
+        fontFamily: 'Poppins',
         fontWeight: '700',
         fontSize: '40px',
         lineHeight: '60px',
@@ -206,16 +211,16 @@ Yuk mentoring sekarang mengenai bisnis dengan
             </div>
             <div className='contain1'
               style={{
-                width: '1440px',
-                width: '1441px',
+                width: '100%',
                 height: '800px',
                 top: '740px',
                 borderRadius: '50px',
                 padding: '24px 48px',
                 margin: '0 48px',
-                backgroundColor: '#FFECD0',
+                backgroundColor: 'rgba(251, 242, 240, 1)',
                 position: 'absolute',
-                left: '-50px'
+                left:'-50px'
+                
             }}>
          
 
@@ -232,13 +237,13 @@ Yuk mentoring sekarang mengenai bisnis dengan
             textAlign: 'center',
             position: 'absolute',
             top:'10px',
-            left:'0px'
+            left:'30px'
             
         }}
         >Konsultasi Dengan Mentor 
         <p
         style={{
-        color: '#FF710D',
+        color: 'rgba(198, 57, 26, 1)',
         position: 'absolute',
         top:'0px',
         left:'865px'
@@ -256,7 +261,7 @@ Yuk mentoring sekarang mengenai bisnis dengan
     color: '#272727',
     position: 'absolute',
     top:'60px',
-    left:'100px'
+    left:'120px'
     }}>
       BizConnect menyediakan layanan konsultasi mengenai usaha kamu lho, yuk coba sekarang.
     </p>
@@ -268,30 +273,30 @@ Yuk mentoring sekarang mengenai bisnis dengan
  style={{
     position: 'absolute',
         top: '150px',
-        left: '570px'
+        left: '620px'
  }}/>
  <img  src="home2.png" 
  alt="" 
  style={{
     position: 'absolute',
         top: '150px',
-        left: '910px'
+        left: '960px'
  }}/>
 <img  src="home3.png" 
  alt="" 
  style={{
     position: 'absolute',
         top: '150px',
-        left: '230px'
+        left: '270px'
  }}/>
 <div className='contain3'
 style={{
-    width: '1441px',
+    width: '100%',
     height: '745px',
     borderRadius: '50px 50px 0 0',
     padding: '32px',
     margin: '0 48px',
-    backgroundColor: 'rgba(81, 54, 35, 0.1)',
+    backgroundColor: 'rgba(227, 214, 211, 1)',
     position: 'absolute',
     top: '700px',
     left: '-50px'
@@ -305,7 +310,7 @@ style={{
         borderRadius: '25px',
         padding: '16px 32px',
         margin: '8px', 
-        backgroundColor: 'rgba(255, 113, 13, 1)',
+        backgroundColor: 'rgba(198, 57, 26, 1)',
         color: 'white',
         fontSize: '16px',
         textAlign: 'center',
@@ -313,6 +318,7 @@ style={{
         cursor: 'pointer',
         position:'absolute',
         top:'-80px',
+        left:'250px'
         
     }}>
         <p style={{
@@ -348,9 +354,11 @@ style={{
         }}> BizConnect menyediakan konsultasi bisnis dengan para professional.</p>
     
     </button>
-    <Link to="/Detail Mentor" style={{
+    
+ <div
 
-maxWidth: '416px',
+ style={{
+    maxWidth: '416px',
 width: '100%',
 height: '520px',
 borderRadius: '25px',
@@ -359,18 +367,211 @@ padding: '24px',
 margin: '24px',
 backgroundColor: '#FFFFFF',
 boxSizing: 'border-box',
-  }}></Link>
+position:'absolute',
+top:'70px',
+left:'70px'
+ }}>
+
+  </div>
+  <div
+ style={{
+    maxWidth: '416px',
+width: '100%',
+height: '520px',
+borderRadius: '25px',
+border: '0.5px solid #5B5B5B',
+padding: '24px',
+margin: '24px',
+backgroundColor: '#FFFFFF',
+boxSizing: 'border-box',
+position:'absolute',
+top:'70px',
+left: '530px'
+
+ }}>
+
+  </div>
+  <div
+ style={{
+    maxWidth: '416px',
+width: '100%',
+height: '520px',
+borderRadius: '25px',
+border: '0.5px solid #5B5B5B',
+padding: '24px',
+margin: '24px',
+backgroundColor: '#FFFFFF',
+boxSizing: 'border-box',
+position:'absolute',
+top:'70px',
+left:'970px'
+ }}>
+
+  </div>
     
+  <div style={{ 
+      width: '352px',
+      height: '17px',
+      fontFamily: 'Poppins',
+      fontWeight: 600,
+      fontSize: '24px',
+      lineHeight: '36px',
+      position:'absolute',
+        top:'350px',
+        left:'140px'
+    }}>
+      <h3>Adam Sadam
+      </h3>
+      </div>
+    <p style={{
+        fontFamily: 'Poppins',
+        fontWeight: 400,
+        fontSize: '20px',
+        color: 'rgba(39, 39, 39, 1)',
+        lineHeight: '30px',
+        position:'absolute',
+        top:'400px',
+        left:'140px'
+    }}> Ketua Bisnis Indonesia</p>
+
+<button
+  style={{
+    width: '368px',
+    height: '60px',
+    borderRadius: '10px',
+    padding: '16px 32px',
+    marginBottom: '8px',
+    backgroundColor: 'rgba(198, 57, 26, 1)',
+    color: 'rgba(255, 255, 255, 1)',
+    border: 'none', // Optionally, if you don't want any border
+    cursor: 'pointer',
+    position:'absolute',
+        top:'500px',
+        left:'120px'
+  }}
+>
+  Rp 185.000
+</button>
+    <img src="mentor1.png" alt="" style={{
+         width:'300.25px',
+         height:'158.51px',
+         position:'absolute',
+         top:'120px',
+         left:'620px'
+         
+    }} />
+    <div>
+      <div style={{ 
+      width: '352px',
+      height: '17px',
+      fontFamily: 'Poppins',
+      fontWeight: 600,
+      fontSize: '24px',
+      lineHeight: '36px',
+      position:'absolute',
+      top:'350px',
+      left:'600px'
+    }}>
+      <h3>Bima Wardhana </h3></div>
+      <p style={{
+        fontFamily: 'Poppins',
+        fontWeight: 400,
+        fontSize: '20px',
+        lineHeight: '30px',
+        position:'absolute',
+        top:'400px',
+        left:'600px'
+    }}> CEO Muda Berkarya</p>
+<div>
+<Link to="/DetailMentor"> 
+<button
+  style={{
+    width: '368px',
+    height: '60px',
+    borderRadius: '10px',
+    padding: '16px 32px',
+    marginBottom: '8px',
+    backgroundColor: 'rgba(198, 57, 26, 1)',
+    color: 'rgba(255, 255, 255, 1)',
+    border: 'none', // Optionally, if you don't want any border
+    cursor: 'pointer',
+    position:'absolute',
+        top:'500px',
+        left:'580px'
+  }}
+>
+  Rp 170.000
+</button>
+</Link>
+</div>
+     <img src="mentor2.png" alt="" style={{
+          width:'300.25px',
+         height:'158.51px',
+         position:'absolute',
+         top:'120px',
+         left:'1050px'
+     }} />
+
+      </div>
+      <div style={{ 
+      width: '352px',
+      height: '17px',
+      fontFamily: 'Poppins',
+      fontWeight: 600,
+      fontSize: '24px',
+      lineHeight: '36px',
+      position:'absolute',
+        top:'350px',
+        left:'1050px'
+      
+    }}>
+      <h3>Nadia Rivera</h3>
+      </div>
+      <p style={{
+        fontFamily: 'Poppins',
+        fontWeight: 400,
+        fontSize: '20px',
+        color: 'rgba(39, 39, 39, 1)',
+        lineHeight: '30px',
+        position:'absolute',
+        top:'400px',
+        left:'1050px'
+    }}> CEO Cipta Kreasi</p>
+<button
+  style={{
+    width: '368px',
+    height: '60px',
+    borderRadius: '10px',
+    padding: '16px 32px',
+    marginBottom: '8px',
+    backgroundColor: 'rgba(198, 57, 26, 1)',
+    color: 'rgba(255, 255, 255, 1)',
+    border: 'none', // Optionally, if you don't want any border
+    cursor: 'pointer',
+    position:'absolute',
+        top:'500px',
+        left:'1020px'
+  }}
+>
+  Rp 210.000
+</button>
+ <img src="mentor3.png" alt="" style={{
+    width:'300.25px',
+         height:'158.51px',
+    position:'absolute',
+         top:'120px',
+         left:'150px'
+ }} />
 </div>
 
 
 
             </div>
             <div className='footer'style={{
-                width: '1441px',
+                width: '1513px',
                 height: '350px',
                 padding: '24px 48px',
-                backgroundColor: '#FFECD0',
+                backgroundColor: 'rgba(251, 242, 240, 1)',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
@@ -630,14 +831,14 @@ boxSizing: 'border-box',
 
 <div className='Footer2'
 style={{
-    width: '1440px', 
+    width: '1513px', 
     height: '70px', 
     position: 'absolute',
     top: '2453px', 
     left:'0px',
     padding: '8px 16px', 
     gap: '8px', 
-    backgroundColor: '#513623',
+    backgroundColor: 'rgba(251, 242, 240, 1)',
 }}>
     <p style={{
     width: '1408px', 

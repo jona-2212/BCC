@@ -1,0 +1,273 @@
+.contain {
+    width: 100%;
+    height: 600px;
+    padding: 16px 32px;
+    gap: 8px;
+    background-color: rgba(198, 57, 26, 1);
+  
+    
+}
+.contain1{
+    width: 100%;
+    height: 1521px;
+    position: absolute;
+    top: 585px;
+    padding: 16px 32px;
+    gap: 8px;
+    background-color:  rgba(251, 242, 240, 1);
+    left: 0px;
+
+}
+.gambar{
+    width: 194px;
+    height: 194px;
+    border-radius: 4px;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 120px;
+    left: 1100px;
+}
+.cek{
+    width: 564px;
+    height: 446px;
+    top: 900px;
+    left: 150px;
+    position: absolute;
+   
+}
+.gambar2{
+    width: 194px;
+    height: 194px;
+    border-radius: 4px;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 120px;
+    left: 900px;
+}
+.gambar3{
+    width: 194px;
+    height: 194px;
+    border-radius: 4px;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 320px;
+    left: 900px;
+}
+.gambar4{
+    width: 194px;
+    height: 194px;
+    border-radius: 4px;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 320px;
+    left: 1100px;
+}
+
+
+
+.gambar1{
+    width: 194px;
+    height: 194px;
+    border-radius: 4px;
+    transform: rotate(0deg);
+}
+.satu{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 63px;
+    color: rgba(251, 242, 240, 1);
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.dua{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(251, 242, 240, 1);
+    position: absolute;
+    top: 320px;
+    left: 50px;
+}
+.tiga{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: center;
+    color: rgba(39, 39, 39, 1);
+    position: absolute;
+    top: 650px;
+    left: 520px;
+}
+.empat{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: center;
+    color:rgba(198, 57, 26, 1);
+    position: absolute;
+    top: 0px;
+    left: 315px;
+}
+.lima{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 1);
+    position: absolute;
+    top: 730px;
+    left: 535px;
+
+}
+.enam{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 1);
+    position: absolute;
+    top: 880px;
+    left: 835px;
+}
+ .sepuluh{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 1);
+    width: 633px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1.5px solid rgba(198, 57, 26, 1);
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 950px;
+    left: 835px;
+    
+   
+}
+.tujuh{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 1);
+    position: absolute;
+    top: 1050px;
+    left: 835px;
+
+}
+.sebe{
+    width: 633px;
+    height: 138px;
+    border-radius: 10px;
+    border: 1.5px solid rgba(198, 57, 26, 1);
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(39, 39, 39, 1);
+    padding: 16px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1100px;
+    left: 835px;
+}
+.delapan{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 1);
+    position: absolute;
+    top: 1280px;
+    left: 835px;
+}
+.duabe{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 1);
+    width: 633px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1.5px solid rgba(198, 57, 26, 1);
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 1350px;
+    left: 835px;
+}
+.sembilan{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 1);
+    position: absolute;
+    top: 1450px;
+    left: 835px;
+}
+.tigabe{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 1);
+    width: 633px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1.5px solid rgba(198, 57, 26, 1);
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 1520px;
+    left: 835px;
+}
+.button{
+    width: 633px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 16px 32px;
+    gap: 8px;
+    background-color:  rgba(198, 57, 26, 1);
+    position: absolute;
+    top: 1620px;
+    left: 835px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(251, 242, 240, 1);
+}
+.foto{
+    width: 300px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(198, 57, 26, 1);
+    padding: 16px 32px;
+    gap: 8px;
+    text-align: center;
+    color:  rgba(198, 57, 26, 1);; /* Warna teks putih */
+    line-height: 1;
+    position: absolute;
+    top: 1300px;
+    left: 250px;
+    background-color: rgba(251, 242, 240, 1);
+   
+}

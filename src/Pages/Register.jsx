@@ -1,14 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link jika Anda menggunakan react-router
-
+import { register } from '../Api/service/register';
 const Register = () => {
+    const handleRegister = (event) => {
+      event.preventDefault()
+    const data = {
+      name: event.target.name.value,
+      email: event.target.email.value,
+      password: event.target.password.value,
+    }
+    register(data)
+    console.log(data)
+    }
   return (
     <div className="layout" style={{
       width: 'full',
       height: '1024px',
       top: '3040px',
       left: '12807px',
-      backgroundColor: '#FF710D',
+      backgroundColor: '#C6391A',
     }}>
       <div className="container" style={{
         width: 'full',
@@ -18,7 +28,7 @@ const Register = () => {
         left: '70px',
         borderRadius: '25px',
         padding: '8px',
-        backgroundColor: '#FFECD0',
+        backgroundColor: '#FBF2F0',
         justifyContent: 'center',
         
       }}>
@@ -37,9 +47,9 @@ const Register = () => {
           }}>
             Ayo Bergabung
             <br />
-            dengan <span style={{ color: 'rgba(255, 113, 13, 1)' }}>BizConnect</span>
+            dengan <span style={{ color: '#C6391A' }}>BizConnect</span>
           </h1>
-          <form action="">
+          <form onSubmit ={handleRegister}>
           <h3 style={{
         fontFamily: 'Poppins',
          fontWeight: 600,
@@ -68,14 +78,15 @@ const Register = () => {
   type="text"
   id="nama"
   placeholder="Nama"
+  name='name'
   style={{
     width: '500px',
     height: '60px',
     borderRadius: '10px',
-    border: '1.5px solid rgba(255, 113, 13, 1)',
+    border: '1.5px solid #C6391A',
     padding: '8px 16px',
     margin: '8px',
-    backgroundColor: 'rgba(255, 253, 208, 1)',
+    backgroundColor: ' #FBF2F0',
     color: 'rgba(255, 113, 13, 1)',
     position: 'absolute',
     top: '200px',
@@ -86,14 +97,15 @@ const Register = () => {
               type="email"
               id="email"
               placeholder="Email"
+              name='email'
               style={{
                 width: '500px',
                 height: '60px',
                 borderRadius: '10px',
-                border: '1.5px solid rgba(255, 113, 13, 1)',
+                border: '1.5px solid #C6391A',
                 padding: '8px 16px',
                 margin: '8px',
-                backgroundColor: 'rgba(255, 253, 208, 1)',
+                backgroundColor: ' #FBF2F0',
                 color: 'rgba(255, 113, 13, 1)',
                 position: 'absolute',
                 top: '280px',
@@ -105,14 +117,15 @@ const Register = () => {
               type="password"
               id="password"
               placeholder="Password"
+              name='password'
               style={{
                 width: '500px',
                 height: '60px',
                 borderRadius: '10px',
-                border: '1.5px solid rgba(255, 113, 13, 1)',
+                border: '1.5px solid #C6391A',
                 padding: '8px 16px',
                 margin: '8px',
-                backgroundColor: 'rgba(255, 253, 208, 1)',
+                backgroundColor: ' #FBF2F0',
                 color: 'rgba(255, 113, 13, 1)',
                 position: 'absolute',
                 top: '370px',
@@ -148,7 +161,7 @@ const Register = () => {
                 borderRadius: '8px',
                 padding: '16px 32px',
                 margin: '8px',
-                backgroundColor: 'rgba(255, 113, 13, 1)',
+                backgroundColor: ' #C6391A',
                 color: 'white',
                 border: 'none',
                 cursor: 'pointer',
@@ -175,7 +188,7 @@ const Register = () => {
                 borderRadius: '10px',
                 padding: '8px 16px',
                 margin: '8px',
-                backgroundColor: 'rgba(255, 113, 13, 1)',
+                backgroundColor: ' #C6391A',
                 textAlign: 'center',
                 color: 'white',
                 border: 'none',

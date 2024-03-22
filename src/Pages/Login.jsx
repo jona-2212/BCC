@@ -1,14 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link jika Anda menggunakan react-router
-
+import { login } from '../Api/service/login';
 const Login = () => {
+  const handleLogin = (event) => {
+    event.preventDefault()
+  const data = {
+    email: event.target.email.value,
+    password: event.target.password.value,
+  }
+  login(data)
+  console.log(data)
+  }
   return (
     <div className="layout" style={{
       width: 'full',
       height: '1024px',
       top: '3040px',
       left: '12807px',
-      backgroundColor: '#FF710D',
+      backgroundColor: ' #C6391A',
+  
     }}>
       <div className="container" style={{
         width: 'full',
@@ -18,7 +28,7 @@ const Login = () => {
         left: '70px',
         borderRadius: '25px',
         padding: '8px',
-        backgroundColor: '#FFECD0',
+        backgroundColor: ' #FBF2F0',
         justifyContent: 'center',
       }}>
         <div className="Login">
@@ -30,15 +40,16 @@ const Login = () => {
             fontSize: '40px',
             lineHeight: '60px',
             textAlign: 'center',
+            
             position: 'absolute', 
             top: '580px', 
             left: '0px'
           }}>
             Hola, Selamat Datang 
             <br />
-            di <span style={{ color: 'rgba(255, 113, 13, 1)' }}>BizConnect</span>
+            di <span style={{ color: '#C6391A' }}>BizConnect</span>
           </h1>
-          <form action="">
+          <form onSubmit ={handleLogin}>
             <h3 style={{
               fontFamily: 'Poppins',
               fontWeight: 600,
@@ -63,17 +74,19 @@ const Login = () => {
             }}>Silahkan masukkan informasi akun kamu.</p>
 
             <input
+           
               type="email"
               id="email"
               placeholder="Email"
+              name='email'
               style={{
                 width: '500px',
                 height: '60px',
                 borderRadius: '10px',
-                border: '1.5px solid rgba(255, 113, 13, 1)',
+                border: '1.5px solid #C6391A',
                 padding: '8px 16px',
                 margin: '8px',
-                backgroundColor: 'rgba(255, 253, 208, 1)',
+                backgroundColor: ' #FBF2F0',
                 color: 'rgba(255, 113, 13, 1)',
                 position: 'absolute',
                 top: '280px',
@@ -85,14 +98,15 @@ const Login = () => {
               type="password"
               id="password"
               placeholder="Password"
+              name='password'
               style={{
                 width: '500px',
                 height: '60px',
                 borderRadius: '10px',
-                border: '1.5px solid rgba(255, 113, 13, 1)',
+                border: '1.5px solid #C6391A',
                 padding: '8px 16px',
                 margin: '8px',
-                backgroundColor: 'rgba(255, 253, 208, 1)',
+                backgroundColor: ' #FBF2F0',
                 color: 'rgba(255, 113, 13, 1)',
                 position: 'absolute',
                 top: '370px',
@@ -130,7 +144,7 @@ const Login = () => {
               Ingat Saya?
             </label>
             <p style={{ width: '146px', height: '27px', padding: '8px', gap: '8px' }}>
-              <Link to="/forgot-password" style={{
+              <Link to="/Password" style={{
                 width: '130px',
                 height: '11px',
                 fontFamily: 'Poppins',
@@ -146,26 +160,29 @@ const Login = () => {
                 Lupa Password?
               </Link>
             </p>
-            <button
-              type="submit"
-              style={{
-                width: '500px',
-                height: '60px',
-                borderRadius: '8px',
-                padding: '16px 32px',
-                margin: '8px',
-                backgroundColor: 'rgba(255, 113, 13, 1)',
-                color: 'white',
-                border: 'none',
-                cursor: 'pointer',
-                position: 'absolute',
-                top: '500px',
-                right: '40px'
-              }}
-            >
-              Masuk
-            </button>
-
+            <div>
+      <Link to="/HomePage"> {/* Link to homepage */}
+        <button
+          type='submit'
+          style={{
+            width: '500px',
+            height: '60px',
+            borderRadius: '8px',
+            padding: '16px 32px',
+            margin: '8px',
+            backgroundColor: '#C6391A',
+            color: 'white',
+            border: 'none',
+            cursor: 'pointer',
+            position: 'absolute',
+            top: '500px',
+            right: '40px'
+          }}
+        >
+          Masuk
+        </button>
+      </Link>
+    </div>
             <br />
             <p
               style={{
@@ -181,7 +198,7 @@ const Login = () => {
                 borderRadius: '10px',
                 padding: '8px 16px',
                 margin: '8px',
-                backgroundColor: 'rgba(255, 113, 13, 1)',
+                backgroundColor: '#C6391A',
                 textAlign: 'center',
                 color: 'white',
                 border: 'none',
@@ -215,7 +232,7 @@ const Login = () => {
             fontSize: '16px',
             lineHeight: '24px',
             textAlign: 'center',
-            color: 'rgba(255, 113, 13, 1)',
+            color: '#C6391A',
             position: 'absolute',
             top: '700px',
             right: '150px'
